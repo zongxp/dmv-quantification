@@ -5,7 +5,7 @@ mag_file = 'mag_64slice/DMV_03_0000.nii.gz';
 phase_file = 'phase_64slice/DMV_03_0001.nii.gz';
 mask_file = 'mask_file/mask_demo/DMV_03_vessel_125.nii.gz';
 
-B0 = 7;
+B0 = 7.0;
 voxSize = [0.4297,0.4297,0.4];
 TE = 15;
 mag_vein = 17*1e-3;
